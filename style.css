@@ -137,7 +137,6 @@ ol {
 
 aside {
     display: flex;
-    justify-content: center;
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -145,8 +144,6 @@ aside {
 }
 
 table {
-    display: flex;
-    justify-content: baseline;
   width: 100%;
   border-collapse: collapse;
   margin-top: 12px;
