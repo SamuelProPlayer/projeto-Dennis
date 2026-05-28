@@ -142,6 +142,11 @@ aside {
     margin-top: 20px;
     background-color: cyan;
 }
+.botao {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
 
 table {
   width: 100%;
