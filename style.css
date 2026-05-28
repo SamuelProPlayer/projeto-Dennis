@@ -145,6 +145,8 @@ aside {
 }
 
 table {
+    display: flex;
+    justify-content: baseline;
   width: 100%;
   border-collapse: collapse;
   margin-top: 12px;
