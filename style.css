@@ -197,4 +197,7 @@ animation: slideInDown 0.8s ease-out;
     }
 }
 
-
+section {
+    display: flex;
+    justify-content: center;
+}
