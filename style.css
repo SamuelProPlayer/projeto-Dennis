@@ -43,8 +43,8 @@ body * {
 }
 
 #btn-premium{
-   color: #806e04;
-    
+   color: #463b00;
+    background-color: blue;
 }
 #logo > a img{
     display: flex;
