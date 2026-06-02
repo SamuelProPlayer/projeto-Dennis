@@ -145,7 +145,7 @@ body * {
 
 .subscribe-btn:hover {
     background: linear-gradient(135deg, #252121 0%, #272626 100%);
-    box-shadow: 0 6px 20px rgba(229, 9, 20, 0.5);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
 }
 
