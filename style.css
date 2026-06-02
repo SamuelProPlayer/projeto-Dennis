@@ -171,13 +171,7 @@ animation: slideInDown 0.8s ease-out;
 
 /* ===== Hero Accent ===== */
 .hero-accent {
-    flex: 1;
-    height: 100%;
-    min-height: 400px;
-    background: radial-gradient(circle at 50% 50%, rgba(229, 9, 20, 0.15), transparent);
-    border-radius: 50%;
-    filter: blur(60px);
-    animation: pulse 4s ease-in-out infinite;
+    display: none;
 }
 
 /* ===== Animations ===== */
