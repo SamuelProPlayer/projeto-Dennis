@@ -119,8 +119,8 @@ body * {
 }
 
 .email-input:focus {
-    background-color: #ffffff;
-    box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.3);
+    background-color: #000000;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 .email-input:hover {
