@@ -56,3 +56,277 @@ body * {
 #logo > a img:hover{
     cursor: pointer;
 }
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 550px;
+    animation: slideInLeft 0.8s ease-out;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e5e5e5;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* ===== Email Subscription Form ===== */
+.email-subscription {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.email-input {
+    flex: 1;
+    min-width: 280px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: #999;
+}
+
+.email-input:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.3);
+}
+
+.email-input:hover {
+    background-color: #ffffff;
+}
+
+.subscribe-btn {
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #e50914 0%, #c90812 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(229, 9, 20, 0.3);
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.subscribe-btn:hover {
+    background: linear-gradient(135deg, #f40612 0%, #d40912 100%);
+    box-shadow: 0 6px 20px rgba(229, 9, 20, 0.5);
+    transform: translateY(-2px);
+}
+
+.subscribe-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(229, 9, 20, 0.3);
+}
+
+/* ===== Additional Info ===== */
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* ===== Hero Accent ===== */
+.hero-accent {
+    flex: 1;
+    height: 100%;
+    min-height: 400px;
+    background: radial-gradient(circle at 50% 50%, rgba(229, 9, 20, 0.15), transparent);
+    border-radius: 50%;
+    filter: blur(60px);
+    animation: pulse 4s ease-in-out infinite;
+}
+
+/* ===== Animations ===== */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.15;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.25;
+    }
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 1024px) {
+    .hero-content {
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 40px;
+    }
+
+    .hero-title {
+        font-size: 44px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .navbar-container {
+        padding: 0 30px;
+    }
+
+    .hero-accent {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .email-subscription {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .email-input {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+    }
+
+    .nav-menu {
+        gap: 20px;
+    }
+
+    .nav-menu a {
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .navbar-container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        padding: 80px 15px 40px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .hero-subtitle {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .email-subscription {
+        margin-bottom: 20px;
+    }
+
+    .email-input {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .subscribe-btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+
+    .info-text {
+        font-size: 12px;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .navbar-container {
+        padding: 0 15px;
+    }
+
+    .nav-menu {
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
+
