@@ -137,21 +137,21 @@ body * {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(229, 9, 20, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .subscribe-btn:hover {
-    background: linear-gradient(135deg, #f40612 0%, #d40912 100%);
+    background: linear-gradient(135deg, #252121 0%, #272626 100%);
     box-shadow: 0 6px 20px rgba(229, 9, 20, 0.5);
     transform: translateY(-2px);
 }
 
 .subscribe-btn:active {
     transform: translateY(0);
-    box-shadow: 0 2px 8px rgba(229, 9, 20, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* ===== Additional Info ===== */
