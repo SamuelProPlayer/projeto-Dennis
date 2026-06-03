@@ -60,7 +60,7 @@ body * {
     transform: scale(1.05); 
     transition-duration:600ms;}
     #btn-add {
-    background: blue;
+    background: black;
     color: white;
     border-radius: 8px;
     padding: 4px 20px;
