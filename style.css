@@ -113,7 +113,7 @@ animation: slideInDown 0.85s ease-out;
 }
 
 .email-input::placeholder {
-    color: #999;
+    color: #ffffff;
 }
 
 .email-input:focus {
