@@ -43,9 +43,29 @@ body * {
 }
 
 #btn-premium{
-   color: #463b00;
-    background-color: blue;
+   margin-right: 3rem;
 }
+.btn-premium > a button {
+     background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.3rem;
+    border: none;
+ }
+.btn-premium > a button:hover {
+    cursor: pointer;
+    color: #000000;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    transition-duration:600ms;}
+    #btn-add {
+    background: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 20px;
+}
+
 #logo > a img{
     display: flex;
     position: absolute;
