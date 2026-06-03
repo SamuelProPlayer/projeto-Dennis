@@ -69,7 +69,7 @@ text-align: center;
 
 .hero-text {
     width: 100%;
-animation: slideInDown 0.8s ease-out;
+animation: slideInDown 0.85s ease-out;
 }
 
 .hero-title {
@@ -90,7 +90,7 @@ animation: slideInDown 0.8s ease-out;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* ===== Email Subscription Form ===== */
+
 .email-subscription {
     display: flex;
     gap: 12px;
@@ -152,7 +152,7 @@ animation: slideInDown 0.8s ease-out;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* ===== Additional Info ===== */
+
 .hero-info {
     display: flex;
     flex-direction: column;
@@ -169,12 +169,12 @@ animation: slideInDown 0.8s ease-out;
     gap: 8px;
 }
 
-/* ===== Hero Accent ===== */
+
 .hero-accent {
     display: none;
 }
 
-/* ===== Animations ===== */
+
 @keyframes slideInLeft {
     from {
         opacity: 0;
