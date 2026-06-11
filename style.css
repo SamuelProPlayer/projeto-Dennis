@@ -141,7 +141,7 @@ animation: slideInDown 0.85s ease-out;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .subscribe-btn:hover {
