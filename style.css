@@ -171,6 +171,7 @@ body * {
     color: var(--text-light);
     font-weight: 300;
     letter-spacing: 0.5px;
+    }
 /* Featured Properties Section */
 .destaque1 {
     padding: 100px 2rem;
