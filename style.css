@@ -67,7 +67,7 @@ body * {
 }
 
 /* Hero Section */
-.hero {
+.parte1 {
     background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3a 100%);
     color: var(--accent-color);
     padding: 150px 2rem;
@@ -80,7 +80,7 @@ body * {
     overflow: hidden;
 }
 
-.hero::before {
+.parte1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -92,13 +92,13 @@ body * {
     pointer-events: none;
 }
 
-.hero-content {
+.content-parte1 {
     position: relative;
     z-index: 1;
     max-width: 800px;
 }
 
-.hero-title {
+.title-parte1 {
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
     font-weight: 900;
@@ -107,7 +107,7 @@ body * {
     line-height: 1.2;
 }
 
-.hero-subtitle {
+.subtitle-parte1 {
     font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: 2.5rem;
