@@ -180,13 +180,13 @@ body * {
     background-color: #fafafa;
 }
 
-.properties-grid {
+.imoveis {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2.5rem;
 }
 
-.property-card {
+.card da imagem {
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
