@@ -435,7 +435,7 @@ body * {
     gap: 2.5rem;
 }
 
-.info-block h4 {
+.info h4 {
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -443,7 +443,7 @@ body * {
     letter-spacing: 0.5px;
 }
 
-.info-block p {
+.info p {
     color: #cccccc;
     margin-bottom: 0.8rem;
     font-size: 0.95rem;
