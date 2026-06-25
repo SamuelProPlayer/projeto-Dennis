@@ -196,19 +196,19 @@ body * {
 }
 
 .card-img:hover,
-.property-card:hover {
+.imovel-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.property-image,
-.property-img {
+.imovel-image,
+.imovel-img {
     height: 280px;
     position: relative;
     overflow: hidden;
 }
 
-.property-badge {
+.imovel-badge {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -221,32 +221,32 @@ body * {
     letter-spacing: 0.5px;
 }
 
-.property-details {
+.imovel-details {
     padding: 2.5rem;
 }
 
-.property-details h3 {
+.imovel-details h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
     color: var(--text-dark);
 }
 
-.property-price {
+.imovel-price {
     font-size: 1.5rem;
     color: var(--secondary-color);
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
-.property-description {
+.imovel-description {
     color: var(--text-light);
     font-size: 0.95rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
-.property-info {
+.imovel-info {
     color: var(--text-light);
     font-size: 0.95rem;
     margin-bottom: 1.5rem;
