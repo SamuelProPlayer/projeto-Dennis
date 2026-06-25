@@ -13,7 +13,6 @@ body * {
 }
 
 .nav{
-    position: sticky;
     display: flex;
     flex-direction: row;
     width: 100vw;
