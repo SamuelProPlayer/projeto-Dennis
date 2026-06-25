@@ -13,6 +13,7 @@ body * {
 }
 
 .nav{
+    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100vw;
