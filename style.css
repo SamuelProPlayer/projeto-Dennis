@@ -59,10 +59,8 @@ body * {
     z-index: 3;
     left: 2%;
     top: 2%;
-    box-shadow: #000000;
-    border-radius: 2px 10px;
-    padding: 4px 20px;
-}
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.3));
+    }
 #logo > a img:hover{
     cursor: pointer;
 }
