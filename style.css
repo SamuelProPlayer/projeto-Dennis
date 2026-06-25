@@ -59,7 +59,9 @@ body * {
     z-index: 3;
     left: 2%;
     top: 2%;
-
+    box-shadow: #000000;
+    border-radius: 2px 10px;
+    padding: 4px 20px;
 }
 #logo > a img:hover{
     cursor: pointer;
