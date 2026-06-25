@@ -13,12 +13,13 @@ body * {
 }
 
 .nav{
+    position: sticky;
     display: flex;
     flex-direction: row;
     width: 100vw;
     justify-content: flex-end;
     background: #ffffff;}
-
+    
 .btn-nav{
     margin-right: 3rem;}
 .btn-nav > a button {
