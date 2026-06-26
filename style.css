@@ -321,7 +321,7 @@ body * {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
-    align-items: flex-end;
+    align-items: normal;
 }
 
 .company-description h3 {
