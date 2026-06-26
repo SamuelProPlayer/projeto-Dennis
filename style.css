@@ -342,6 +342,7 @@ body * {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    width: 50%;
 }
 
 .stat {
