@@ -333,12 +333,7 @@ body * {
     top: 90px; /* fica fixo enquanto a lista rola */
 }
 
-.mapa-representativo iframe {
-    display: block;
-    width: 100%;
-    height: 500px;
-    border: 0;
-}
+
 
 
 
