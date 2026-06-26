@@ -306,6 +306,7 @@ body * {
     line-height: 1.7;
     font-weight: 300;
 }
+ /*loc */
 
 .localizacao {
     padding: 100px 2rem;
@@ -328,7 +329,7 @@ body * {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-    position: sticky;
+    position: fixed;
     top: 90px; /* fica fixo enquanto a lista rola */
 }
 
