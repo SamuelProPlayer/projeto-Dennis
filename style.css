@@ -306,36 +306,6 @@ body * {
     line-height: 1.7;
     font-weight: 300;
 }
- /*loc */
-
-.localizacao {
-    padding: 100px 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.localizacao-container {
-    width: 100%;
-}
-
-.localizacao-mapa-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
-}
-
-.mapa-representativo {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-    position: fixed;
-    top: 90px; /* fica fixo enquanto a lista rola */
-}
-
-
-
-
 
 
 
