@@ -342,7 +342,7 @@ body * {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    justify-content: right;
+    justify-content: end;
 }
 
 .stat {
