@@ -318,8 +318,7 @@ body * {
 .company-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
