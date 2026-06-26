@@ -320,7 +320,7 @@ body * {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 5px;
     align-items: center;
 }
 
