@@ -312,7 +312,7 @@ body * {
 
 /* mapa de localizacao */
 
-.localizacao-container {
+.lcalizacao-container {
      position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
@@ -320,7 +320,7 @@ body * {
     overflow: hidden;
 }
 
-.mapa-representativo {
+.apa-representativo {
     position: absolute;
     top: 0;
     left: 0;
