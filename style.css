@@ -312,7 +312,7 @@ body * {
 
 /* mapa de localizacao */
 
-.localizacao-container {
+.mapa {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
