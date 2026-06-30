@@ -310,6 +310,8 @@ body * {
     font-weight: 300;
 }
 
+/* mapa de localizacao */
+
 .localizacao-container {
      position: relative;
     width: 100%;
